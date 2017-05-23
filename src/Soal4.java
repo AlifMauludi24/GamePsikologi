@@ -33,6 +33,7 @@ public class Soal4 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         setengah = new javax.swing.JRadioButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -41,7 +42,7 @@ public class Soal4 extends javax.swing.JFrame {
         penuh.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         penuh.setText("Penuh");
         getContentPane().add(penuh);
-        penuh.setBounds(20, 110, 80, 30);
+        penuh.setBounds(90, 130, 80, 30);
 
         buttonGroup1.add(kosong);
         kosong.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -52,12 +53,12 @@ public class Soal4 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(kosong);
-        kosong.setBounds(20, 170, 110, 40);
+        kosong.setBounds(90, 190, 110, 40);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel2.setText("<html>  Berapa banyakkah air didalam pot tersebut ?  </html>");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(10, 40, 380, 60);
+        jLabel2.setBounds(10, 80, 380, 60);
 
         jButton1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jButton1.setText("Lhat Hasilnya");
@@ -78,12 +79,16 @@ public class Soal4 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(setengah);
-        setengah.setBounds(20, 140, 140, 30);
+        setengah.setBounds(90, 160, 140, 30);
 
         jLabel1.setFont(new java.awt.Font("Segoe Print", 1, 18)); // NOI18N
         jLabel1.setText("SOAL 4");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(10, 10, 120, 30);
+        jLabel1.setBounds(10, 60, 120, 30);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\Water-1600x900.jpg")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(0, 0, 400, 290);
 
         setBounds(500, 200, 416, 327);
     }// </editor-fold>//GEN-END:initComponents
@@ -149,6 +154,7 @@ public class Soal4 extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JRadioButton kosong;
     private javax.swing.JRadioButton penuh;
     private javax.swing.JRadioButton setengah;

@@ -42,6 +42,7 @@ public class Hasil2 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         jButton1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jButton1.setText("Lanjut Dong");
@@ -77,14 +78,14 @@ public class Hasil2 extends javax.swing.JFrame {
         Hasil2.setBounds(10, 70, 310, 50);
 
         jButton3.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton3.setText("Tepat Banget");
+        jButton3.setText("Tepat");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(20, 200, 120, 30);
+        jButton3.setBounds(80, 200, 90, 30);
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel4.setText("Gimana ? Masih sesuai dengan kepribadian Anda ?");
@@ -92,21 +93,25 @@ public class Hasil2 extends javax.swing.JFrame {
         jLabel4.setBounds(10, 130, 340, 30);
 
         jButton4.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton4.setText("Hasilnya salah ! Gak mau main lagi.");
+        jButton4.setText("Salah");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(150, 200, 240, 30);
+        jButton4.setBounds(180, 200, 110, 30);
 
         jLabel5.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         jLabel5.setText("Hasilnya adalah ...");
         getContentPane().add(jLabel5);
         jLabel5.setBounds(10, 10, 380, 40);
 
-        setBounds(500, 200, 416, 339);
+        jPanel1.setBackground(new java.awt.Color(255, 255, 51));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 240);
+
+        setBounds(500, 200, 416, 280);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -175,5 +180,6 @@ public class Hasil2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

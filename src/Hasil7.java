@@ -36,6 +36,7 @@ public class Hasil7 extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         jButton3.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jButton3.setText("Lanjut");
@@ -73,7 +74,7 @@ public class Hasil7 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(10, 170, 120, 30);
+        jButton5.setBounds(90, 170, 90, 30);
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel6.setText("Lanjut ?");
@@ -81,14 +82,14 @@ public class Hasil7 extends javax.swing.JFrame {
         jLabel6.setBounds(10, 110, 340, 30);
 
         jButton6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton6.setText("Hasilnya salah ! Gak mau main lagi.");
+        jButton6.setText("Tidak");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton6);
-        jButton6.setBounds(140, 170, 240, 30);
+        jButton6.setBounds(190, 170, 90, 30);
 
         jLabel7.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         jLabel7.setText("Hasilnya adalah ...");
@@ -99,6 +100,10 @@ public class Hasil7 extends javax.swing.JFrame {
         jLabel2.setText("<html>Semakin tinggi angka yang Anda pilih semakin tinggi pula gairah seks yang Anda miliki.</html>");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(10, 50, 390, 60);
+
+        jPanel1.setBackground(new java.awt.Color(0, 255, 204));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 230);
 
         setBounds(500, 200, 416, 271);
     }// </editor-fold>//GEN-END:initComponents
@@ -169,5 +174,6 @@ public class Hasil7 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

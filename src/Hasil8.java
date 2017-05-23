@@ -37,6 +37,7 @@ public class Hasil8 extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -53,7 +54,7 @@ public class Hasil8 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(10, 160, 120, 30);
+        jButton5.setBounds(110, 160, 80, 30);
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel6.setText("Pas banget nih kayanya. Lanjut ?");
@@ -61,19 +62,23 @@ public class Hasil8 extends javax.swing.JFrame {
         jLabel6.setBounds(10, 100, 340, 30);
 
         jButton6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton6.setText("Hasilnya salah ! Gak mau main lagi.");
+        jButton6.setText("Tidak");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton6);
-        jButton6.setBounds(140, 160, 240, 30);
+        jButton6.setBounds(200, 160, 80, 30);
 
         jLabel7.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         jLabel7.setText("Hasilnya adalah ...");
         getContentPane().add(jLabel7);
         jLabel7.setBounds(10, 10, 380, 40);
+
+        jPanel1.setBackground(new java.awt.Color(255, 153, 153));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 210);
 
         setBounds(500, 200, 416, 249);
     }// </editor-fold>//GEN-END:initComponents
@@ -129,5 +134,6 @@ public class Hasil8 extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

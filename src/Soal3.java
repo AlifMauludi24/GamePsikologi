@@ -33,6 +33,7 @@ public class Soal3 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         plastik = new javax.swing.JRadioButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -57,7 +58,7 @@ public class Soal3 extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel2.setText("<html> \nLalu anda melihat sebuah pot yang sedang tergantung disekitar ruangan <br> <br>\n\nTerbuat dari apakah pot tersebut?\n\n</html>");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(10, 60, 380, 60);
+        jLabel2.setBounds(20, 50, 380, 60);
 
         jButton1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jButton1.setText("Lihat Hasilnya");
@@ -84,6 +85,10 @@ public class Soal3 extends javax.swing.JFrame {
         jLabel1.setText("SOAL 3");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 10, 120, 30);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("E:\\img_3659.jpg")); // NOI18N
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(0, 0, 400, 300);
 
         setBounds(500, 200, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -152,6 +157,7 @@ public class Soal3 extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JRadioButton plastik;
     // End of variables declaration//GEN-END:variables
 }

@@ -35,6 +35,7 @@ public class Soal1 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         Buka = new javax.swing.JRadioButton();
         Tutup = new javax.swing.JRadioButton();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -70,6 +71,10 @@ public class Soal1 extends javax.swing.JFrame {
         Tutup.setText("Tertutup");
         getContentPane().add(Tutup);
         Tutup.setBounds(210, 150, 93, 23);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\forest_flat_design_by_hiraethex-d962loq.jpg")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(0, 0, 400, 300);
 
         setBounds(500, 200, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -127,5 +132,6 @@ public class Soal1 extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }

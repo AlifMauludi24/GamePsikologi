@@ -33,6 +33,7 @@ public class Soal5 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         perak = new javax.swing.JRadioButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -84,6 +85,10 @@ public class Soal5 extends javax.swing.JFrame {
         jLabel1.setText("SOAL 5");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 10, 120, 30);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\363cae43288d343d5724cabc67eeebf1.png")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(0, 0, 400, 280);
 
         setBounds(500, 200, 416, 311);
     }// </editor-fold>//GEN-END:initComponents
@@ -152,6 +157,7 @@ public class Soal5 extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JRadioButton perak;
     // End of variables declaration//GEN-END:variables
 }

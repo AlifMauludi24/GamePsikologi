@@ -37,11 +37,13 @@ public class soal9 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
+        besar.setBackground(new java.awt.Color(255, 255, 255));
         besar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         besar.setText("Besar");
         getContentPane().add(besar);
         besar.setBounds(10, 100, 200, 30);
 
+        kecil.setBackground(new java.awt.Color(255, 255, 255));
         kecil.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         kecil.setText("Kecil");
         kecil.addActionListener(new java.awt.event.ActionListener() {
@@ -53,6 +55,7 @@ public class soal9 extends javax.swing.JFrame {
         kecil.setBounds(10, 160, 160, 40);
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("<html>  Lalu Anda keluar dari istana tadi dan melihat sebuah kotak harta karun. Bagaimana ukuran kotak tersebut?  </html>");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(10, 50, 380, 60);
@@ -65,8 +68,9 @@ public class soal9 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(350, 340, 140, 30);
+        jButton1.setBounds(250, 250, 140, 30);
 
+        sedang.setBackground(new java.awt.Color(255, 255, 255));
         sedang.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         sedang.setText("Sedang");
         sedang.addActionListener(new java.awt.event.ActionListener() {
@@ -78,16 +82,16 @@ public class soal9 extends javax.swing.JFrame {
         sedang.setBounds(10, 130, 140, 30);
 
         jLabel1.setFont(new java.awt.Font("Segoe Print", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("SOAL 9");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 10, 120, 30);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\pbo ICON 1.png")); // NOI18N
-        jLabel3.setText("jLabel3");
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\a84444f22cea21a83319a0e87a2b2d77.jpg")); // NOI18N
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(-50, 180, 560, 210);
+        jLabel3.setBounds(-130, 0, 550, 380);
 
-        setBounds(500, 200, 517, 425);
+        setBounds(500, 200, 420, 336);
     }// </editor-fold>//GEN-END:initComponents
 
     private void kecilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kecilActionPerformed

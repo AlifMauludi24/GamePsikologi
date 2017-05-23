@@ -30,6 +30,7 @@ public class Soal6 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -63,6 +64,10 @@ public class Soal6 extends javax.swing.JFrame {
         jLabel1.setText("SOAL 6");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 10, 120, 30);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\5-kunci-kesuksesan.jpg")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(0, 0, 400, 300);
 
         setBounds(500, 200, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -117,5 +122,6 @@ public class Soal6 extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }

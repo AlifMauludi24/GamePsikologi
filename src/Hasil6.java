@@ -31,6 +31,7 @@ public class Hasil6 extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -43,7 +44,7 @@ public class Hasil6 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(10, 170, 120, 30);
+        jButton3.setBounds(100, 170, 80, 30);
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel4.setText("Lanjut ?");
@@ -51,14 +52,14 @@ public class Hasil6 extends javax.swing.JFrame {
         jLabel4.setBounds(10, 110, 340, 30);
 
         jButton4.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton4.setText("Hasilnya salah ! Gak mau main lagi.");
+        jButton4.setText("Tidak");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(140, 170, 240, 30);
+        jButton4.setBounds(190, 170, 80, 30);
 
         jLabel5.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         jLabel5.setText("Hasilnya adalah ...");
@@ -69,6 +70,10 @@ public class Hasil6 extends javax.swing.JFrame {
         jLabel1.setText("<html>Jumlah kunci yang Anda pilih menunjukkan jumlah teman/sahabat terdekat yang anda miliki.");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 50, 390, 60);
+
+        jPanel1.setBackground(new java.awt.Color(255, 102, 0));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 230);
 
         setBounds(500, 200, 416, 265);
     }// </editor-fold>//GEN-END:initComponents
@@ -124,5 +129,6 @@ public class Hasil6 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

@@ -30,12 +30,14 @@ public class Soal7 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel2.setText("<html>  Berapakah derasnya aliran air terjun tersebut (Pilih angka 1 sampai 10, semakin tinggi angka yang Anda pilih, aliran air semakin deras) </html>");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(10, 50, 380, 60);
@@ -48,7 +50,7 @@ public class Soal7 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(520, 380, 140, 30);
+        jButton1.setBounds(240, 210, 140, 30);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Berapa Deras ?", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
         getContentPane().add(jComboBox1);
@@ -59,12 +61,17 @@ public class Soal7 extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 10, 120, 30);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\waterfall.png")); // NOI18N
-        jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 0, 690, 430);
+        jLabel4.setIcon(new javax.swing.ImageIcon("E:\\b7c5552ba413162db2742e4d5dd5c0fd.jpg")); // NOI18N
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(0, 0, 390, 250);
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(10, 40, 100, 100);
 
-        setBounds(500, 200, 700, 462);
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(20, 40, 360, 80);
+
+        setBounds(500, 200, 406, 287);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -113,6 +120,8 @@ public class Soal7 extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }

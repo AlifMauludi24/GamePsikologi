@@ -37,6 +37,7 @@ public class Hasil10 extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -74,6 +75,10 @@ public class Hasil10 extends javax.swing.JFrame {
         });
         getContentPane().add(jButton6);
         jButton6.setBounds(190, 210, 160, 30);
+
+        jPanel1.setBackground(new java.awt.Color(0, 255, 204));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 310);
 
         setBounds(500, 200, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -130,5 +135,6 @@ public class Hasil10 extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

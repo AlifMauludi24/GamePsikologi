@@ -65,7 +65,7 @@ public class soal8 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(540, 370, 140, 30);
+        jButton1.setBounds(270, 370, 140, 30);
 
         koinperak.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         koinperak.setText("Mengambil koin perak di kolam kedua");
@@ -82,12 +82,11 @@ public class soal8 extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 10, 120, 30);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\pbo ICON 2.png")); // NOI18N
-        jLabel3.setText("jLabel3");
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\landscape-with-mounstains-in-flat-design_23-2147540322.jpg")); // NOI18N
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(130, 0, 660, 470);
+        jLabel3.setBounds(0, -80, 430, 490);
 
-        setBounds(500, 200, 718, 450);
+        setBounds(500, 200, 445, 450);
     }// </editor-fold>//GEN-END:initComponents
 
     private void gakambilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gakambilActionPerformed

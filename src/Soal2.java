@@ -33,23 +33,27 @@ public class Soal2 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         Kotak = new javax.swing.JRadioButton();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Segoe Print", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("SOAL 2");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 10, 120, 30);
 
         buttonGroup1.add(bulat);
         bulat.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        bulat.setForeground(new java.awt.Color(255, 255, 255));
         bulat.setText("Bulat");
         getContentPane().add(bulat);
         bulat.setBounds(20, 140, 120, 30);
 
         buttonGroup1.add(Segitiga);
         Segitiga.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        Segitiga.setForeground(new java.awt.Color(255, 255, 255));
         Segitiga.setText("Segitiga");
         Segitiga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -59,8 +63,10 @@ public class Soal2 extends javax.swing.JFrame {
         getContentPane().add(Segitiga);
         Segitiga.setBounds(290, 140, 80, 30);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel2.setText("<html> \nLalu Anda masuk ke gubuk tersebut dan Anda melihat sebuah meja. <br> <br>\n\nApa bentuk meja tersebut?\n\n</html>");
+        jLabel2.setBackground(new java.awt.Color(153, 51, 255));
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("<html> \nLalu Anda masuk ke gubuk tersebut dan Anda melihat <br>\nsebuah meja. <br> <br>\n\nApa bentuk meja tersebut?\n\n</html>");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(10, 60, 380, 60);
 
@@ -76,6 +82,7 @@ public class Soal2 extends javax.swing.JFrame {
 
         buttonGroup1.add(Kotak);
         Kotak.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        Kotak.setForeground(new java.awt.Color(255, 255, 255));
         Kotak.setText("Kotak");
         Kotak.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -84,6 +91,10 @@ public class Soal2 extends javax.swing.JFrame {
         });
         getContentPane().add(Kotak);
         Kotak.setBounds(150, 140, 90, 30);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\0abf9c75fce7d900cdc2a661f4d32c2e.jpg")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(-6, -6, 410, 310);
 
         setBounds(500, 200, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -152,5 +163,6 @@ public class Soal2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }

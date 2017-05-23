@@ -37,6 +37,7 @@ public class Hasil9 extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -51,14 +52,14 @@ public class Hasil9 extends javax.swing.JFrame {
         jLabel7.setBounds(10, 10, 380, 40);
 
         jButton5.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton5.setText("Cocok, Sam !");
+        jButton5.setText("Lanjut");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(10, 150, 120, 30);
+        jButton5.setBounds(80, 150, 90, 30);
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel6.setText("Cocok kan ?");
@@ -66,14 +67,18 @@ public class Hasil9 extends javax.swing.JFrame {
         jLabel6.setBounds(10, 110, 340, 30);
 
         jButton6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton6.setText("Hasilnya salah ! Gak mau main lagi.");
+        jButton6.setText("Tidak");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton6);
-        jButton6.setBounds(140, 150, 240, 30);
+        jButton6.setBounds(180, 150, 120, 30);
+
+        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 210);
 
         setBounds(500, 200, 416, 246);
     }// </editor-fold>//GEN-END:initComponents
@@ -129,5 +134,6 @@ public class Hasil9 extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

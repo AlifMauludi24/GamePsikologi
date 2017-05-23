@@ -33,6 +33,7 @@ public class soal10 extends javax.swing.JFrame {
         kotakbesar = new javax.swing.JRadioButton();
         jLabel1 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -84,6 +85,10 @@ public class soal10 extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2);
         jButton2.setBounds(240, 243, 150, 30);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("E:\\maxresdefault.jpg")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(-610, -450, 1180, 860);
 
         setBounds(500, 200, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -150,6 +155,7 @@ public class soal10 extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JRadioButton kotakbesar;
     private javax.swing.JRadioButton kuda;
     private javax.swing.JRadioButton lari;
